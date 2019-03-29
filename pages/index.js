@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import css from 'next/css';
 
+
+
 const style = css({
   transition: 'all .4s',
   height: '100vh',

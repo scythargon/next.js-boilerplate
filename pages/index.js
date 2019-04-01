@@ -2,6 +2,26 @@ import React from 'react';
 import Link from 'next/link';
 import css from 'next/css';
 
+function hello(username) {
+  return `hello ${username}`;
+}
+
+const arrow = (qwe) => {
+  return qwe;
+}
+
+class CourseTopBar extends React.Component {
+
+  something = (qwe) => {
+    return qwe;
+  }
+
+  render() {
+    return (
+      'qwe'
+    );
+  }
+}
 
 
 const style = css({
